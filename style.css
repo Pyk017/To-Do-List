@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  background-image: linear-gradient(120deg, #dce28d, #fbc531);
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  max-width: 700px;
+  margin: auto;
+  margin-top: 5%;
+  padding: 10px;
+  border-radius: 14px;
+  background: #dce28d;
+  box-shadow: inset 28px 28px 57px #bbc078, inset -28px -28px 57px #fdffa2;
+}
+
+.txtb {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #000;
+  background: none;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+}
+
+h3 {
+  padding: 10px 0;
+}
+
+.task {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 25px;
+  margin: 6px 0;
+  overflow: hidden;
+  /* border-radius: 23px;
+  background: linear-gradient(145deg, #fffff7, #dbdcd0);
+  box-shadow: 6px 6px 12px #e7e8db, -6px -6px 12px #fffff3; */
+  border-radius: 23px;
+  background: linear-gradient(45deg, #ebf297, #c6cb7f);
+  box-shadow: 6px -6px 12px #dae08c, -6px 6px 12px #dee48e;
+}
+
+.task i {
+  float: right;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.comp .task {
+  background: rgba(0, 0, 0, 0.5);
+  /* border-radius: 23px;
+  background: linear-gradient(45deg, #3a3b34, #44463e);
+  box-shadow: 6px -6px 12px #3f4039, -6px 6px 12px #41423b; */
+  border-radius: 23px;
+  background: linear-gradient(45deg, #c6cb7f, #ebf297);
+  box-shadow: 6px -6px 12px #dae08c, -6px 6px 12px #dee48e;
+  /* color: #fff; */
+}
